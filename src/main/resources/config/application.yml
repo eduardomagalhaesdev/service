@@ -189,11 +189,11 @@ spring:
       client:
         provider:
           oidc:
-            issuer-uri: http://localhost:9080/realms/jhipster
+            issuer-uri: http://localhost:8080/realms/appweb
         registration:
           oidc:
-            client-id: internal
-            client-secret: internal
+            client-id: appjhipster793
+            client-secret: 5iHHlBbvrogc7fK17mpSWTMmnGHgn2z3
             scope: openid, profile, email, offline_access # last one for refresh tokens
 
 server:

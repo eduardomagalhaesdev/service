@@ -82,4 +82,4 @@
             <column name="local_date" type="date"/>
         </createTable>
     </changeSet>
-</databaseChangeLog>
+</databaseChangeLog> 
