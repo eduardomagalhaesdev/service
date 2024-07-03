@@ -5,7 +5,6 @@ import java.time.LocalDate;
 import javax.persistence.*;
 import javax.validation.constraints.*;
 
-
 @Entity
 @Table(name = "processo")
 @SuppressWarnings("common-java:DuplicatedBlocks")
